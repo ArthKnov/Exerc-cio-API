@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #dcdcdc;
+}
+main {
+    flex: 1;
+}
+header {
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.nav-link {
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+#weather-info {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.carousel {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item {
+    padding: 20px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+footer {
+    margin-top: 30px;
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+}
